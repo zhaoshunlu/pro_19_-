@@ -1,0 +1,27 @@
+﻿/****** Script for SelectTopNRows command from SSMS  ******/
+
+--insert into [SatisfySurvey_201808].[dbo].[MainSubject]
+
+--SELECT  
+--       [Id]
+--      ,[SurveyType]
+--      ,[Title]
+--      ,'201810' as [SurveyMonth]
+--      ,[AnswerType]
+--      ,[IsDisable]
+--      ,[IsDisableUnPrize]
+--      ,[Dimension]
+--      ,getdate() as [AddTime]
+--  FROM [SatisfySurvey_201808].[dbo].[MainSubject]
+--  where [SurveyMonth]='201809'
+
+
+
+insert into [SatisfySurvey_201808].[dbo].[RewardPool]
+SELECT newid() as  [Id]
+      ,[Reward]
+      ,0 as [Token]
+      ,'201810' as [SurveyMonth]
+      ,getdate() as [AddTime]
+  FROM [SatisfySurvey_201808].[dbo].[RewardPool]
+  where [SurveyMonth]='201809'  

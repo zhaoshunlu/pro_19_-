@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "开始新月份问卷调查工具", "开始新月份问卷调查工具\开始新月份问卷调查工具.csproj", "{C943FBE4-5F10-49D1-942F-60381FA3F74B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "问卷调查批量导入工具", "开始新月份问卷调查工具\问卷调查批量导入工具.csproj", "{C943FBE4-5F10-49D1-942F-60381FA3F74B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

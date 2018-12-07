@@ -25,3 +25,5 @@ SELECT newid() as  [Id]
       ,getdate() as [AddTime]
   FROM [SatisfySurvey_201808].[dbo].[RewardPool]
   where [SurveyMonth]='201809'  
+
+

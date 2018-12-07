@@ -1,4 +1,4 @@
-﻿namespace WindowsFormsApplication2 {
+﻿namespace QuestionnaireTool {
     partial class frmMain {
         /// <summary>
         /// 必需的设计器变量。
@@ -220,7 +220,7 @@
             // pictureBox1
             // 
             this.pictureBox1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.pictureBox1.Image = global::WindowsFormsApplication2.Properties.Resources.wait;
+            this.pictureBox1.Image = global::QuestionnaireTool.Properties.Resources.wait;
             this.pictureBox1.Location = new System.Drawing.Point(680, 113);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(50, 50);

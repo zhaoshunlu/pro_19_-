@@ -14,7 +14,7 @@ using NPOI.XSSF.UserModel;
 using NPOI.HSSF.UserModel;
 using System.Data.SqlClient;
 
-namespace WindowsFormsApplication2 {
+namespace QuestionnaireTool {
     public partial class frmMain : Form {
         string SurveyMonth = "";
         string Connnstring = "";

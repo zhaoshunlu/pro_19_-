@@ -1,7 +1,7 @@
 ﻿/****** Script for SelectTopNRows command from SSMS  ******/
 
 --insert into [SatisfySurvey_201808].[dbo].[MainSubject]
-
+--测试复制一级标题记录
 --SELECT  
 --       [Id]
 --      ,[SurveyType]
@@ -16,7 +16,7 @@
 --  where [SurveyMonth]='201809'
 
 
-
+--测试复制奖池记录
 insert into [SatisfySurvey_201808].[dbo].[RewardPool]
 SELECT newid() as  [Id]
       ,[Reward]
